@@ -113,9 +113,9 @@ export const AboutApproach = () => {
 
   return (
     <section
-      ref={sectionRef}
-      className="relative bg-white text-[#08111d] w-full lg:h-[calc(100vh-76px)] max-h-screen flex items-center overflow-hidden py-8 lg:py-0 border-b border-slate-100"
-    >
+  ref={sectionRef}
+  className="relative bg-white text-[#08111d] w-full h-auto lg:h-[calc(100vh-76px)] lg:max-h-screen flex items-center overflow-hidden py-14 sm:py-16 lg:py-0 border-b border-slate-100"
+>
       {/* Precision Blueprint Dots Pattern */}
       <div
         className="absolute inset-0 opacity-[0.035] pointer-events-none"
@@ -155,7 +155,7 @@ export const AboutApproach = () => {
         </div>
 
         {/* ================= PRINCIPLES INTERACTIVE GRID ================= */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-6 items-stretch">
           {principles.map((item) => {
             const Icon = item.icon;
 

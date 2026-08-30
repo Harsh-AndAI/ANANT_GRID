@@ -130,9 +130,9 @@ tl.to(".foundation-label", {
 
   return (
     <section
-      ref={sectionRef}
-      className="relative bg-[#f4f6f8] text-brand-navy w-full lg:h-[calc(100vh-76px)] max-h-screen flex items-center overflow-hidden py-8 lg:py-0 border-b border-slate-200/70"
-    >
+  ref={sectionRef}
+  className="relative bg-[#f4f6f8] text-brand-navy w-full h-auto lg:h-[calc(100vh-76px)] lg:max-h-screen flex items-center overflow-hidden py-14 sm:py-16 lg:py-0 border-b border-slate-200/70"
+>
       {/* Background Grid */}
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.025]"
@@ -146,7 +146,7 @@ tl.to(".foundation-label", {
       {/* Ambient Copper Glow */}
       <div className="absolute -top-32 -right-32 w-[380px] h-[380px] rounded-full bg-brand-copper/[0.06] blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 w-full relative z-10 flex flex-col justify-between py-4">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 w-full relative z-10 flex flex-col justify-between py-2 lg:py-4">
         
         {/* ================= TOP IDENTITY AREA ================= */}
         <div>
@@ -169,11 +169,11 @@ tl.to(".foundation-label", {
         <div className="foundation-rule my-4 lg:my-6 h-px w-full bg-brand-navy/15" />
 
         {/* ================= FOUNDATION CONTENT ================= */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-10 items-stretch">
           
           {/* LEFT — PARTNER CARD */}
           <div className="lg:col-span-7">
-            <div className="foundation-partner foundation-partner-card relative h-full bg-brand-navy text-white p-6 sm:p-8 lg:p-10 overflow-hidden border border-brand-navy rounded-sm transition-colors duration-500 flex flex-col justify-between shadow-lg">
+            <div className="foundation-partner foundation-partner-card relative min-h-[300px] lg:h-full bg-brand-navy text-white p-6 sm:p-8 lg:p-10 overflow-hidden border border-brand-navy rounded-sm transition-colors duration-500 flex flex-col justify-between shadow-lg">
               
               {/* NIIF Watermark */}
               <span className="absolute -right-4 -bottom-10 text-[140px] md:text-[180px] leading-none font-bold text-white/[0.035] pointer-events-none select-none">
@@ -236,7 +236,7 @@ tl.to(".foundation-label", {
         </div>
 
         {/* ================= BOTTOM ACCENT ================= */}
-        <div className="mt-6 pt-3 border-t border-brand-navy/10 flex items-center justify-between">
+        <div className="mt-10 lg:mt-6 pt-4 lg:pt-3 border-t border-brand-navy/10 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-px bg-brand-copper" />
             <span className="text-[9px] uppercase tracking-[0.25em] text-brand-text-secondary font-medium">

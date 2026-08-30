@@ -91,9 +91,9 @@ export const EnergyTransition = () => {
 
   return (
     <section
-      ref={sectionRef}
-      className="relative bg-[#060e18] text-white w-full lg:h-[calc(100vh-76px)] max-h-screen flex items-center overflow-hidden py-8 lg:py-0 border-b border-white/10"
-    >
+  ref={sectionRef}
+  className="relative bg-[#060e18] text-white w-full h-auto lg:h-[calc(100vh-76px)] lg:max-h-screen flex items-center overflow-hidden py-14 sm:py-16 lg:py-0 border-b border-white/10"
+>
       {/* Precision Blueprint Grid */}
       <div
         className="absolute inset-0 opacity-[0.025] pointer-events-none"
@@ -106,7 +106,7 @@ export const EnergyTransition = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 w-full relative z-10 flex flex-col justify-center">
         
         {/* Main 2-Column Corporate Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
           {/* ================= LEFT COLUMN ================= */}
           <div className="lg:col-span-5 et-header flex flex-col justify-between">
@@ -154,7 +154,7 @@ export const EnergyTransition = () => {
               <div className="flex items-baseline gap-4">
                 <span
                   ref={countRef}
-                  className="text-6xl sm:text-7xl lg:text-8xl font-light text-white font-mono tracking-tighter leading-none"
+                  className="text-5xl sm:text-7xl lg:text-8xl font-light text-white font-mono tracking-tighter leading-none"
                 >
                   0
                 </span>
@@ -175,7 +175,7 @@ export const EnergyTransition = () => {
               {flowPhases.map((phase) => (
                 <div
                   key={phase.step}
-                  className="et-flow-row py-4 sm:py-4.5 flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-6 group hover:bg-white/[0.02] transition-colors"
+                  className="et-flow-row py-5 sm:py-4.5 flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-6 group hover:bg-white/[0.02] transition-colors"
                 >
                   <div className="flex items-baseline gap-3 shrink-0 sm:w-48">
                     <span className="text-xs font-mono text-[#d97736] font-semibold">

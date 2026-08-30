@@ -117,9 +117,9 @@ export const AboutCTA = () => {
 
   return (
     <section
-      ref={sectionRef}
-      className="relative bg-[#f6f8fb] text-[#08111d] py-16 sm:py-20 lg:py-24 overflow-hidden border-t border-slate-200/80"
-    >
+  ref={sectionRef}
+  className="relative bg-[#f6f8fb] text-[#08111d] py-16 sm:py-20 lg:py-24 overflow-hidden border-t border-slate-200/80"
+>
       {/* Background blueprint grid */}
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none"
@@ -134,7 +134,7 @@ export const AboutCTA = () => {
         {/* ================= ELECTRIC GRID CTA CONTAINER ================= */}
         <div
           ref={cardRef}
-          className="relative bg-[#060e18] text-white rounded-xl p-8 sm:p-12 lg:p-14 overflow-hidden shadow-[0_25px_60px_rgba(6,14,24,0.4)] border border-white/10 group will-change-transform"
+          className="relative bg-[#060e18] text-white rounded-xl p-6 sm:p-12 lg:p-14 overflow-hidden shadow-[0_25px_60px_rgba(6,14,24,0.4)] border border-white/10 group will-change-transform"
         >
           {/* Subtle Background Circuit Mesh */}
           <div

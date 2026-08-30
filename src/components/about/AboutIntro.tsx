@@ -158,9 +158,9 @@ gsap.to(imageContainerRef.current, {
 
   return (
     <section
-      ref={sectionRef}
-      className="relative bg-[#ffffff] text-[#08111d] w-full lg:h-[calc(100vh-76px)] max-h-screen flex items-center overflow-hidden py-10 lg:py-0 border-b border-slate-100"
-    >
+  ref={sectionRef}
+  className="relative bg-[#ffffff] text-[#08111d] w-full h-auto lg:h-[calc(100vh-76px)] lg:max-h-screen flex items-center overflow-hidden py-14 sm:py-16 lg:py-0 border-b border-slate-100"
+>
       {/* Blueprint background grid */}
       <div
         className="absolute inset-0 opacity-[0.035] pointer-events-none"
@@ -171,7 +171,7 @@ gsap.to(imageContainerRef.current, {
       />
 
       <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 w-full relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 sm:gap-12 lg:gap-14 items-center">
           
           {/* ================= LEFT: CONTENT ================= */}
           <div className="lg:col-span-6 flex flex-col justify-center">
@@ -227,8 +227,7 @@ gsap.to(imageContainerRef.current, {
             {/* Main Image Container */}
             <div
               ref={imageContainerRef}
-              className="relative w-full aspect-[4/3] max-h-[360px] lg:max-h-[400px] overflow-hidden rounded-sm border border-slate-200/90 shadow-2xl group will-change-transform"
-            >
+className="relative w-full aspect-[4/3] max-h-[360px] lg:max-h-[400px] overflow-hidden rounded-sm border border-slate-200/90 shadow-2xl group will-change-transform"            >
               {/* Copper Wipe Shutter Overlay */}
               <div
                 ref={curtainRef}
