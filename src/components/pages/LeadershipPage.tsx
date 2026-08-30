@@ -84,7 +84,8 @@ gsap.fromTo(
         label="The Team"
         title="Leadership at AnantGrid"
         subtitle="Led by industry veterans with over 35 years of multi-disciplinary experience across Energy, Power Transmission, and Large-Scale Infrastructure."
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000"
+        // image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000"
+        image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=2000"
       />
 
       <section className="py-20 lg:py-28 relative overflow-hidden">
