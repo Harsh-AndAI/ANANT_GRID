@@ -357,8 +357,7 @@ export const CareersPage = () => {
         label="Careers at AnantGrid"
         title="Build the infrastructure behind India's energy transition."
         subtitle="Join a team focused on ownership, collaboration, continuous learning and excellence in delivering critical infrastructure."
-        // image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=2000"\
-        image="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=2000"
+        image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000"
       />
 
       {/* ============================================================
